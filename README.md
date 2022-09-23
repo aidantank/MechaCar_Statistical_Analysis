@@ -1,4 +1,11 @@
 # MechaCar_Statistical_Analysis
+## Overview
+This report details a statistical analysis of MechaCar prototypes and their suspension coils. Using R, we will do linear regression analysis, visualize summary statistics, run t tests, and give future analysis directions for MechaCar prototypes.
+
+## Resources
+Data: [MechaCar_mpg](MechaCar_mpg.csv), [Suspension_Coil](Suspension_Coil.csv)  
+Software: R version 4.2.1, RStudio 2022.07.1, Visual Studio Code 1.71.2
+
 ## Linear Regression to Predict MPG
 Below is an image of the multiple linear regression model attempting to predict miles per gallon(mpg) based on vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance:
 
@@ -58,7 +65,7 @@ In only lot 3 prototypes did we reject the null hypothesis that the mean is equa
 
 ## Study Design: MechaCar vs Competition
 ### Introduction to Study
-Now that we have discussed some statistical summaries and tests on the MechaCar prototype, the next step is to compare MechaCar versus other manufacturers. One study design that I will suggest is looking at Manufacturing costs of prototypes. I would like to see if there is a difference in the variances of manufacturing costs between manufacturers. Maybe some prototypes are on average more expensive or less expensive to make? This could be reflected in the cost passed down to the customer.
+Now that we have discussed some statistical summaries and tests on the MechaCar prototype, the next step is to compare MechaCar versus other manufacturers. One study design that I will suggest is looking at Maintenance costs of prototypes. I would like to see if there is a difference in the variances of maintenance costs between manufacturers. Maybe some prototypes are on average more expensive or less expensive to maintain? This could be reflected in the cost passed down to the customer.
 
 ### Statistical Testing and Description
 To conduct this study we will use the maintenance cost metric for prototypes for multiple manufacturers including MechaCar. The null hypothesis would be that there is no difference in the distribution mean of maintenance cost between any of the prototype manufacturers. In other words, the maintenance costs of all prototypes would have a similar distribution regardless of the manufacturer. In order to compare the distributions of maintenance costs across multiple competitors we would need to use an analysis of variance (ANOVA) test. 
